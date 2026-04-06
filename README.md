@@ -1,5 +1,8 @@
 # solana-agent-kit-plugin-uzproof
 
+[![npm](https://img.shields.io/npm/v/solana-agent-kit-plugin-uzproof)](https://www.npmjs.com/package/solana-agent-kit-plugin-uzproof)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) plugin for **UZPROOF** — verify real on-chain usage on Solana.
 
 ## Install
