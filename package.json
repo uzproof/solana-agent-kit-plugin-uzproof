@@ -1,12 +1,14 @@
 {
   "name": "solana-agent-kit-plugin-uzproof",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Solana Agent Kit plugin for UZPROOF — verify real on-chain usage (swaps, staking, holdings, NFTs) across 14 Solana protocols with anti-fraud scoring and SAS attestation.",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": {
