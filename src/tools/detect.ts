@@ -9,7 +9,7 @@ import type { SolanaAgentKit } from "solana-agent-kit";
  *
  * @param agent - SolanaAgentKit instance
  * @param programId - Solana program ID to detect
- * @returns Detection result with protocol info and suggested quest template
+ * @returns Detection result with protocol info and suggested verification template
  */
 export async function detectProtocol(
   agent: SolanaAgentKit,
