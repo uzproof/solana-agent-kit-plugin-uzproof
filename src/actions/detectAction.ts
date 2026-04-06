@@ -16,7 +16,7 @@ const detectProtocolAction: Action = {
   ],
 
   description:
-    "Auto-detect a Solana program ID and identify which protocol it belongs to. Returns the protocol name, category, supported verification actions, and a suggested quest template. Supports 14 protocols: Jupiter, Marinade, Orca, Raydium, Drift, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, SPL Token.",
+    "Auto-detect a Solana program ID and identify which protocol it belongs to. Returns the protocol name, category, supported verification actions, and a suggested verification template. Supports 14 protocols: Jupiter, Marinade, Orca, Raydium, Drift, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, SPL Token.",
 
   examples: [
     [
@@ -55,7 +55,7 @@ const detectProtocolAction: Action = {
         status: "success",
         detected: result.detected,
         program: result.program,
-        questTemplate: result.questTemplate,
+        verificationTemplate: result.verificationTemplate,
       };
     } catch (error: unknown) {
       const message = error instanceof Error ? error.message : String(error);
