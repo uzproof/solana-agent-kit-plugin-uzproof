@@ -94,11 +94,11 @@ The `UZPROOF_VERIFY_WALLET_ACTIVITY` action schema deliberately omits `xPayment`
 
 ## Supported Protocols
 
-Jupiter, Marinade, Sanctum, Orca, Raydium, Drift, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, SPL Token.
+Jupiter, Marinade, Sanctum, Orca, Raydium, Drift, Drift Vaults, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, SPL Token.
 
-## Supported Action Types (24)
+## Supported Action Types (26)
 
-`defi_swap`, `defi_swap_buy`, `defi_swap_sell`, `defi_swap_volume`, `defi_hold_token`, `defi_hold_stablecoin`, `defi_hold_staked`, `defi_hold_token_duration`, `defi_hold_lp`, `defi_stake_sol`, `defi_add_liquidity`, `defi_bridge`, `defi_lend`, `defi_borrow`, `defi_vote`, `defi_repay`, `defi_claim`, `defi_create_lst`, `nft_hold`, `nft_mint`, `nft_check`, `token_balance`, `tx_verify`, `gaming_play`.
+`defi_swap`, `defi_swap_buy`, `defi_swap_sell`, `defi_swap_volume`, `defi_hold_token`, `defi_hold_stablecoin`, `defi_hold_staked`, `defi_hold_token_duration`, `defi_hold_lp`, `defi_stake_sol`, `defi_add_liquidity`, `defi_bridge`, `defi_lend`, `defi_borrow`, `defi_vote`, `defi_repay`, `defi_claim`, `defi_create_lst`, `defi_perp_trade`, `defi_perp_volume`, `nft_hold`, `nft_mint`, `nft_check`, `token_balance`, `tx_verify`, `gaming_play`.
 
 ## Links
 
