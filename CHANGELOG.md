@@ -4,6 +4,29 @@ All notable changes to `solana-agent-kit-plugin-uzproof` are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Documentation
+
+- Synced protocol / signal counts across the package surface to match
+  the `uzproof/uzproof` Drift v2 perpetuals integration (2026-04-28):
+  - 14 → **15 protocols** (added Drift Vaults to every enumeration)
+  - 8 → **14 anti-sybil signals** (correcting prior understatement)
+- Touched: `package.json` description, `README.md`, `src/index.ts`,
+  `src/actions/verifyAction.ts`, `src/actions/detectAction.ts`,
+  `src/tools/detect.ts`. Surface API unchanged.
+
+### Pending follow-up
+
+- **Bump `@uzproof/verify` peer range to `^1.3.0`** once that version
+  reaches npm. The new SDK adds `defi_perp_trade` and
+  `defi_perp_volume` ActionType variants for Drift v2 perpetuals
+  coverage. Plugin's own surface API does not change; agents that
+  want to call `verifyWalletActivity` with the new actions need
+  both this plugin's bump and the SDK release. Keeping the current
+  `^1.2.0` pin until the SDK is published on npm so `npm install`
+  does not break.
+
 ## [1.1.0] — 2026-04-16
 
 ### Added
