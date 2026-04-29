@@ -16,7 +16,7 @@ import { checkAttestation } from "./tools/attestation";
  * UZPROOF Plugin for Solana Agent Kit
  *
  * Adds on-chain verification capabilities to AI agents:
- * - Verify wallet activity (swaps, staking, holdings, NFTs) across 14 protocols
+ * - Verify wallet activity (swaps, staking, holdings, NFTs) across 15 protocols
  * - Auto-detect Solana protocols from program IDs
  * - Fetch token metadata and live prices
  * - Check on-chain SAS attestations

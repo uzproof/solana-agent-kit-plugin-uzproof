@@ -85,7 +85,7 @@ AI agents can invoke these actions via natural language:
 
 | Action | Trigger phrases | Description |
 |---|---|---|
-| `UZPROOF_VERIFY_WALLET_ACTIVITY` | "verify wallet swapped", "check if holds" | Verify on-chain activity across 14 protocols (requires agent-side x402 payment) |
+| `UZPROOF_VERIFY_WALLET_ACTIVITY` | "verify wallet swapped", "check if holds" | Verify on-chain activity across 15 protocols (requires agent-side x402 payment) |
 | `UZPROOF_DETECT_PROTOCOL` | "what protocol is this", "detect program" | Auto-detect protocol from program ID |
 | `UZPROOF_GET_TOKEN_INFO` | "token price", "token info" | Fetch token metadata and live price |
 | `UZPROOF_CHECK_ATTESTATION` | "check attestation", "proof of use" | Check SAS on-chain attestation |

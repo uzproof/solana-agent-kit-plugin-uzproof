@@ -3,9 +3,9 @@ import type { SolanaAgentKit } from "solana-agent-kit";
 
 /**
  * Auto-detect a Solana program and get supported verification types.
- * Supports 14 protocols: Jupiter, Marinade, Orca, Raydium, Drift,
- * Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex,
- * Sanctum, SPL Token.
+ * Supports 15 protocols: Jupiter, Marinade, Orca, Raydium, Drift,
+ * Drift Vaults, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden,
+ * Metaplex, Sanctum, SPL Token.
  *
  * @param agent - SolanaAgentKit instance
  * @param programId - Solana program ID to detect

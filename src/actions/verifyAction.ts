@@ -23,7 +23,7 @@ const verifyWalletActivityAction: Action = {
   ],
 
   description:
-    "Verify that a Solana wallet performed a specific on-chain action (swap, stake, hold tokens, mint NFT, add liquidity, lend, borrow, bridge, etc.) across 14 protocols including Jupiter, Marinade, Orca, Raydium, Drift, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, and SPL Token. Returns verification status with evidence (matching transactions, volume, balances).",
+    "Verify that a Solana wallet performed a specific on-chain action (swap, stake, hold tokens, mint NFT, add liquidity, lend, borrow, bridge, etc.) across 15 protocols including Jupiter, Marinade, Orca, Raydium, Drift, Drift Vaults, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, and SPL Token. Returns verification status with evidence (matching transactions, volume, balances).",
 
   examples: [
     [

@@ -16,7 +16,7 @@ const detectProtocolAction: Action = {
   ],
 
   description:
-    "Auto-detect a Solana program ID and identify which protocol it belongs to. Returns the protocol name, category, supported verification actions, and a suggested verification template. Supports 14 protocols: Jupiter, Marinade, Orca, Raydium, Drift, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, SPL Token.",
+    "Auto-detect a Solana program ID and identify which protocol it belongs to. Returns the protocol name, category, supported verification actions, and a suggested verification template. Supports 15 protocols: Jupiter, Marinade, Orca, Raydium, Drift, Drift Vaults, Kamino, MarginFi, Meteora, Jito, Tensor, Magic Eden, Metaplex, Sanctum, SPL Token.",
 
   examples: [
     [
