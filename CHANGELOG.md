@@ -6,6 +6,16 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- **Bumped `@uzproof/verify` dependency from `^1.2.0` to `^1.3.0`.**
+  The 1.3.0 SDK release (2026-04-29) added `defi_perp_trade` and
+  `defi_perp_volume` ActionType variants for Drift v2 perpetuals
+  coverage. Existing plugin actions continue to work unchanged;
+  agents calling `verifyWalletActivity` with the new perp actions
+  now get full SDK type-checking. Verified live with
+  `npm view @uzproof/verify version` returning `1.3.0`.
+
 ### Documentation
 
 - Synced protocol / signal counts across the package surface to match
@@ -15,17 +25,6 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Touched: `package.json` description, `README.md`, `src/index.ts`,
   `src/actions/verifyAction.ts`, `src/actions/detectAction.ts`,
   `src/tools/detect.ts`. Surface API unchanged.
-
-### Pending follow-up
-
-- **Bump `@uzproof/verify` peer range to `^1.3.0`** once that version
-  reaches npm. The new SDK adds `defi_perp_trade` and
-  `defi_perp_volume` ActionType variants for Drift v2 perpetuals
-  coverage. Plugin's own surface API does not change; agents that
-  want to call `verifyWalletActivity` with the new actions need
-  both this plugin's bump and the SDK release. Keeping the current
-  `^1.2.0` pin until the SDK is published on npm so `npm install`
-  does not break.
 
 ## [1.1.0] — 2026-04-16
 
